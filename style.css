@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background: url("images/220621095847-04-gallery-beijing-fengtai-station-restricted-full-169.jpg") no-repeat center fixed;
+	background-size: cover;
+	text-align: center;
+	height: 100%;
+	color: white;
+	font-size: 30px;
+}
+
+.content {
+	padding-top: 100px;
+	background-color: rgba(0, 0, 0, 0.65);
+	z-index: 10;
+	height: 100vh;
+}
+
+.title {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.counter {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	width: 20%;
+	max-width: 600px;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 15px 40px;
+	border-radius: 10px;
+	border: none;
+
+	margin-bottom: 10px;
+
+	transition: background-color .2s linear, transform .1s linear;
+}
+
+.btn-red {
+	background-color: rgb(112, 0, 0);
+	color: rgb(149, 149, 149);
+}
+
+.btn-red:hover {
+	background-color: rgb(75, 0, 0);
+	color: rgb(207, 207, 207);
+
+}
+
+.btn-red:active {
+	transform: scale(1.1);
+	background-color: rgb(38, 0, 0);
+	color: white;	
+}
+
+.btn-green {
+	background-color: rgb(63, 199, 0);
+	color: rgb(0, 0, 0);
+}
+
+.btn-green:hover {
+	background-color: rgb(43, 137, 0);
+	color: rgb(207, 207, 207);
+
+}
+
+.btn-green:active {
+	transform: scale(1.1);
+	background-color: rgb(26, 83, 0);
+	color: white;	
+}
